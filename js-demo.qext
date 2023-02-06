@@ -1,0 +1,12 @@
+{
+    "type": "mashup",
+    "name": "js-demo",
+    "description": "",
+    "version": "1.0.0",
+    "author": "Pedro Perdigão",
+    "keywords": "qlik-sense, visualization, mashup",
+    "preview": "img/preview.png",
+    "dependencies": {
+        "qlik-sense": ">=3.0.x"
+	 }
+}
