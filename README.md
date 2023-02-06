@@ -7,4 +7,4 @@ A pasta markdown contém material sobre conceitos e funcionalidades básicas do 
 Esta pasta contém os códigos exemplos, em que nos conectamos a uma aplicação Qlik por meio das Capabilities API, extraímos dados da aplicação por meio de um hipercubo e transformamos os dados para o formato desejado.
 
 - QlikConnection.js: Criação da conexão com a Engine do Qlik e com o app desejado
-- App.js: Extração e Transformação dos dados
+- PieChart.js: Extração e Transformação dos dados
