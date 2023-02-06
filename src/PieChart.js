@@ -57,18 +57,22 @@ const PieChart = (props) => {
                 extractData: [
                                 [
                                     {"qText":"Carolyn Halmon","qNum":"NaN","qElemNumber":51,"qState":"O"},
+                                    {"qText":"Alcoholic Beverages","qNum":"NaN","qElemNumber":51,"qState":"O"},
                                     {"qText":"0.75369849149957","qNum":0.7536984914995684,"qElemNumber":0,"qState":"L"}
                                 ],
                                 [
                                     {"qText":"Donna Brown","qNum":"NaN","qElemNumber":53,"qState":"O"},
+                                    {"qText":"Alcoholic Beverages","qNum":"NaN","qElemNumber":53,"qState":"O"},
                                     {"qText":"1.0983187140631","qNum":1.0983187140631223,"qElemNumber":0,"qState":"L"}
                                 ],
                                 [
                                     {"qText":"Ronald Milam","qNum":"NaN","qElemNumber":37,"qState":"O"},
+                                    {"qText":"Alcoholic Beverages","qNum":"NaN","qElemNumber":37,"qState":"O"},
                                     {"qText":"5.9106283405972","qNum":5.910628340597185,"qElemNumber":0,"qState":"L"}
                                 ],
                                 [
                                     {"qText":"Kim Williams","qNum":"NaN","qElemNumber":34,"qState":"O"},
+                                    {"qText":"Alcoholic Beverages","qNum":"NaN","qElemNumber":34,"qState":"O"},
                                     {"qText":"1.9426454472778","qNum":1.942645447277761,"qElemNumber":0,"qState":"L"}
                                 ]
                             ]

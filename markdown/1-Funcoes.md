@@ -60,6 +60,12 @@ apresentacao('Antônio')
 
 Agora, podemos fazer uma apresentação para qualquer nome utilizando a mesma função. Parâmetros possibilitam que façamos a definição de uma função uma vez e que possamos utilizar ela várias vezes para obter resultados diferentes.
 
+
+> ## **Encontre o erro!**
+>
+><img src = './img/Parameters.png' alt = 'Encontre o erro'/>
+
+
 ## Valores de Retorno
 Funções podem também retornar valores para que as chamou por meio da palavra chave *return*. Observe o exemplo:
 
