@@ -46,16 +46,18 @@ Inverte uma array
 
 Usados para aplicar uma função sobre cada elemento de uma array, porém com comportamentos diferentes.
 
-- forEach não tem retorno e serve para alterar a array de origem
+- forEach não tem retorno e serve para executar efeitos colaterais baseados nos elementos da array
 
 ```js
-let minhaArray = [1, 2, 3]
-let retorno = minhaArray.forEach((num) => {
-    return num + 1 
-})
+const arraySparse = [1, 3, /* empty */, 7];
+let numCallbackRuns = 0;
 
-console.log(minhaArray)
-console.log(retorno)
+arraySparse.forEach((element) => {
+  console.log({ element });
+  numCallbackRuns++;
+});
+
+console.log({ numCallbackRuns });
 ```
 
 - map tem retorno e serve para fazer uma cópia da array original
