@@ -17,12 +17,12 @@ let minhaArray = [0, 1, '2', [3, 4], {valor: 5}]
 console.log(minhaArray[3])
 ```
 
-Para acessar o último elemento da array quando não sabemos quantos elementos ela tem, podemos usar a propriedade `lenght` da array:
+Para acessar o último elemento da array quando não sabemos quantos elementos ela tem, podemos usar a propriedade `length` da array:
 
 ```js
 let minhaArray = [0, 1, '2', [3, 4], {valor: 5}]
 
-let lastElementIndex = minhaArray.lenght - 1
+let lastElementIndex = minhaArray.length - 1
 console.log(minhaArray[lastElementIndex])
 ```
 
