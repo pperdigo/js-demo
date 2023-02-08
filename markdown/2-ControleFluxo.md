@@ -15,15 +15,15 @@ Esta função avalia tanto o `valor_se_verdadeiro` e o `valor_se_falso`, e apena
 O if-else do JavaScript funciona de modo a redirecionar seu código determinada seção, de acordo com condições que você determinar. Observe o exemplo:
 
 ```js
-1 let a = prompt('Insira um valor');
-2
-3 if (typeof a === 'number') {
-4  console.log("Você inseriu um número");
-5 } else if (a === 'string') {
-6   console.log("Você digitou uma string");
-7 } else {
-8   console.log("O que você digitou não é número e nem string");
-9 }
+1  let a = parseInt(prompt('Insira um valor'), 10);
+2 
+3  if (a<0) {
+4    console.log("Menor que zero");
+5  } else if (a === 0) {
+6    console.log("Zero");
+7  } else {
+8    console.log("Maior que zero");
+9  }
 10
 11 console.log('Fim da função.')
 ```
