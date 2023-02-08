@@ -26,7 +26,7 @@ while (contador < 10){
 O for loop tem a mesma funcionalidade do loop while, porém a inicialização da variável de iteração, a condição e o incremento/decremento da variável são declaradas na mesma linha, desta forma:
 
 ```js
-for(let contador = 0; contador < 10, ++contador){
+for(let contador = 0; contador < 10; ++contador){
     console.log('Esta é a ' + contador + 'ª iteração')
 }
 ```
